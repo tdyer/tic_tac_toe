@@ -14,39 +14,31 @@
 </head>
 
 <body class="container-fluid">
-  <h1>Tic Tac Toe</h1>
 
+  <h1>Tic Tac Toe</h1>
+  <legend>Sign Up!</legend>
   <form id="sign-up">
     <fieldset>
-      <legend>Sign up!</legend>
-      <input type="text" name="credentials[email]" placeholder="email">
-      <input type="password" name="credentials[password]" placeholder="password">
-      <input type="password" name="credentials[password_confirmation]" placeholder="password confirmation">
-      <input class="button" type="submit" name="submit" value="Sign up!">
-    </fieldset>
+    <input name="credentials[email]" type="text" placeholder="email">
+    <input name="credentials[password]" type="password" placeholder="password">
+    <input name="credentials[password_confirmation]" type="password" placeholder="an example password">
+    <input class="button" type="submit" name="submit" value="Sign up!">
+  </fieldset>
   </form>
+
   <form id="sign-in">
-    <fieldset>
-      <legend>Sign in!</legend>
-      <input type="text" name="credentials[email]" placeholder="email">
-      <input type="password" name="credentials[password]" placeholder="password">
-      <input class="button" type="submit" name="submit" value="Sign in!">
-    </fieldset>
-  </form>
-  <form id="change-password">
-    <fieldset>
-      <legend>Change Password!</legend>
-      <input type="password" name="passwords[old]" placeholder="password">
-      <input type="password" name="passwords[new]" placeholder="password">
-      <input class="button" type="submit" name="submit" value="Change Password!">
-    </fieldset>
-  </form>
-  <form id="sign-out">
-    <fieldset>
-      <legend>Sign Out!</legend>
-      <input class="button" type="submit" name="submit" value="Sign Out!">
-    </fieldset>
-  </form>
+        <fieldset>
+          <legend>Sign in!</legend>
+          <input type="text" name="credentials[email]" placeholder="email">
+          <input type="password" name="credentials[password]" placeholder="password">
+          <input type="submit" name="submit" value="Sign in!">
+
+        </fieldset>
+      </form>
+
+
+
+
 </body>
 
 </html>
